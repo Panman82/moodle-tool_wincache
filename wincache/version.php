@@ -24,10 +24,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2013041700;
+$plugin->version   = 2013041800;
 $plugin->requires  = 2011120500; // Moodle 2.2.0+
 $plugin->cron      = 0; // No cron jobs to run here
 $plugin->component = 'tool_wincache';
 $plugin->maturity  = MATURITY_RC;
-$plugin->release   = '1.0 (Build: 2013041700)';
+$plugin->release   = '1.0 (Build: 2013041800)';
 $plugin->dependencies = array(); // No dependencies
